@@ -21,6 +21,12 @@ Para utilizar esse sistema voce vai precisar das seguintes ferramentas:
 
 - [XAMPP](https://www.apachefriends.org/pt_br/index.html).
 - [COMPOSER](https://getcomposer.org/).
+- [LARAVEL](https://laravel.com/docs/8.x).
+Depois de instalar e configurar use os comandos abaixo para iniciar a aplicação.
+use o comando abaixo para criar as tabelas:
+    php artisan migrate
+Por ultimo use o camando abaixo para rodar a aplicação 
+    php artisan serve
 
 
 ## License
