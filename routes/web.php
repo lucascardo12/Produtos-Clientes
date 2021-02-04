@@ -15,7 +15,7 @@ use App\Http\Controllers\ProdutoController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
 Route::resource('produto', ProdutoController::class);
 Route::resource('cliente', ClienteController::class);

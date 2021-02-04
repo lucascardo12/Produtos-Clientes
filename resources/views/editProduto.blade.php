@@ -13,7 +13,7 @@
 
 <div class="card push-top">
   <div class="card-header">
-    Editar & Update
+    Alterar Produto
   </div>
 
   <div class="card-body">
@@ -42,7 +42,7 @@
               <input type="number" class="form-control" name="valor" value="{{ $produto->valor }}"/>
           </div>
           
-          <button type="submit" class="btn btn-block btn-danger">Update Produto</button>
+          <button type="submit" class="btn btn-block btn-danger">Alterar Produto</button>
       </form>
   </div>
 </div>

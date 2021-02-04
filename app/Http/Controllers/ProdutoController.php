@@ -16,7 +16,7 @@ class ProdutoController extends Controller
     {
 
         $produto = Produto::all();
-        return view('index', compact('produto'));
+        return view('viewProduto', compact('produto'));
     }
 
     /**
@@ -26,7 +26,7 @@ class ProdutoController extends Controller
      */
     public function create()
     {
-        return view('create');
+        return view('createProduto');
     }
 
     /**
@@ -68,7 +68,7 @@ class ProdutoController extends Controller
     public function edit($id)
     {
         $produto = Produto::findOrFail($id);
-        return view('edit', compact('produto'));
+        return view('editProduto', compact('produto'));
     }
 
     /**
